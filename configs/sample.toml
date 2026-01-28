@@ -1,0 +1,23 @@
+[modifications]
+
+# 示例 1: 替换根目录下的 "UserLocalConfigStore"
+"UserLocalConfigStore" = """
+{
+    "Audio"
+    {
+        "music_volume" "0.5"
+        "sfx_volume"   "1.0"
+    }
+}
+"""
+
+# 示例 2: 替换深层嵌套 "Software.Valve.Steam" 里的 "Apps"
+"Software.Valve.Steam.Apps" = """
+{
+    "570" 
+    {
+        "Installed" "1"
+        "Updating"  "0"
+    }
+}
+"""
